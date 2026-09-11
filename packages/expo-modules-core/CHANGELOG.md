@@ -8,6 +8,8 @@
 
 ### 🐛 Bug fixes
 
+- [iOS] Resolve the key window and presentation controller through scene-aware utilities. ([#46956](https://github.com/expo/expo/pull/46956), [#48319](https://github.com/expo/expo/pull/48319))
+
 - [Android] Fixed `BadParcelableException` at startup when an activity-result launch was interrupted. `DataPersistor` read the persisted `Bundle` with no `ClassLoader`, so the boot `ClassLoader` could not resolve `androidx.activity.result.ActivityResult`. ([#49836](https://github.com/expo/expo/pull/49836) by [@expo-bot](https://github.com/expo-bot))
 
 ### 💡 Others
